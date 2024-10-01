@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bytelibrary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="container-25-esquerda">
+                <img src="img/bl.png" alt="Logo Biblioteca BL" height="90px" width="90px">
+            </div>
+            <div class="container-header-meio">
+                <h1>ByteLibrary</h1>
+            </div>
+            <div class="container-25-direita"></div>
+        </div>
+    </header>
+    <main>
+        <div class="controles">
+            <input type="text" id="filtro" placeholder="Pesquisar por título ou autor">
+            <button id="botao-filtrar">Pesquisar</button>
+        </div>
+        <div id="lista-livros"></div>
+    </main>
+    <div id="detalhes-livro" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <div id="conteudo-detalhes"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/f646581e7d.js" crossorigin="anonymous"></script>
+</body>
+</html>
